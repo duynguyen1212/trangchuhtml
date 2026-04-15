@@ -1,0 +1,186 @@
+/* Global */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #444;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.button_1 {
+    height: 38px;
+    background: #4a69bd; /* Màu xanh Slate Blue */
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.button_1:hover {
+    opacity: 0.8;
+}
+
+.dark {
+    padding: 15px;
+    background: #1e272e;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Header **/
+header {
+    background: #ffffff;
+    color: #1e272e;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #4a69bd 3px solid;
+}
+
+header a {
+    color: #1e272e;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+header li {
+    display: inline;
+    padding: 0 15px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+    color: #4a69bd;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #4a69bd;
+}
+
+header a:hover {
+    color: #4a69bd;
+}
+
+/* Showcase */
+#showcase {
+    min-height: 350px;
+    background: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#showcase h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+#showcase p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Newsletter */
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: #1e272e;
+}
+
+#newsletter h1 {
+    float: left;
+    font-size: 22px;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 10px;
+}
+
+#newsletter input[type="email"] {
+    padding: 8px;
+    height: 20px;
+    width: 250px;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Boxes */
+#boxes {
+    margin-top: 30px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+/* Sidebar */
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    padding: 15px;
+    background: #ebf0f1;
+    border-radius: 5px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Main-col */
+article#main-col {
+    float: left;
+    width: 65%;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    padding: 25px;
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: #1e272e;
+    text-align: center;
+    clear: both; /* Đảm bảo footer luôn ở dưới cùng */
+}
