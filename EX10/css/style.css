@@ -1,0 +1,196 @@
+/* Global */
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfc;
+    color: #2c3e50;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.button_1 {
+    height: 40px;
+    background: #27ae60; /* Màu xanh lá làm điểm nhấn */
+    border: 0;
+    padding: 0 25px;
+    color: #ffffff;
+    border-radius: 50px; /* Bo tròn mạnh hơn tạo vẻ hiện đại */
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button_1:hover {
+    background: #219150;
+}
+
+.dark {
+    padding: 20px;
+    background: #2d3436;
+    color: #ffffff;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+/* Header **/
+header {
+    background: #ffffff;
+    color: #2d3436;
+    padding-top: 25px;
+    min-height: 80px;
+    border-bottom: #27ae60 4px solid;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+header a {
+    color: #2d3436;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+header li {
+    display: inline;
+    padding: 0 15px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #27ae60;
+}
+
+header nav {
+    float: right;
+    margin-top: 5px;
+}
+
+header .highlight, header .current a {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #27ae60;
+}
+
+/* Showcase */
+#showcase {
+    min-height: 400px;
+    background: #2d3436;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: #f1f2f6 1px solid;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+    color: #bdc3c7;
+}
+
+/* Newsletter */
+#newsletter {
+    padding: 20px;
+    color: #ffffff;
+    background: #27ae60;
+}
+
+#newsletter h1 {
+    float: left;
+    font-size: 20px;
+    margin: 0;
+}
+
+#newsletter form {
+    float: right;
+}
+
+#newsletter input[type="email"] {
+    padding: 8px 15px;
+    height: 25px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+/* Boxes */
+#boxes {
+    margin-top: 40px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+}
+
+#boxes .box img {
+    width: 100px;
+    margin-bottom: 15px;
+    filter: grayscale(20%);
+}
+
+/* Sidebar */
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 25px;
+}
+
+aside#sidebar .quote {
+    background: #f1f2f6;
+    padding: 20px;
+    border-left: #27ae60 5px solid;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Đảm bảo padding không làm vỡ khung */
+}
+
+/* Main-col */
+article#main-col {
+    float: left;
+    width: 65%;
+    margin-top: 25px;
+}
+
+/* Footer */
+footer {
+    padding: 30px;
+    margin-top: 40px;
+    color: #ffffff;
+    background-color: #2d3436;
+    text-align: center;
+    clear: both;
+}
